@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+body {
+  background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+  <ul>
+  <li><a class="active" href="main.html">Home</a></li>
+  <li><a href="games.html">Games</a></li>
+  <li><a href="movies.html">Movies</a></li>
+  <li><a href="songs.html">Songs</a></li>
+</ul>
+<br><br><br>
+  <div class="w3-content w3-display-container">
+    <img class="mySlides" src="a.jpg" width="500" height="500" style="float:left">
+    <img class="mySlides" src="b.jpg" width="500" height="500" style="float:left">
+    <img class="mySlides" src="c.jpg" width="500" height="500" style="float:left">
+    <img class="mySlides" src="d.jpg" width="500" height="500" style="float:left">
+
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+  }
+  </script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  &nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp	&nbsp
+  <a href="https://www.google.com"><img src="google.gif" alt="HTML tutorial" style="width:300px;height:100px"></a>
+
+
+
+</body>
+</html>
