@@ -16,5 +16,6 @@ for epoch = 10, it achieved an accuracy of 67.55% while for epoch = 20, it achie
 gui.py runs the model in a Graphical User Interface with image upload and classification features (currently model with epoch = 20 is loaded).
 Image_classification.py is the source code for generating the model.
 Some images are available in Test Images folder for testing.
+*the models files (.H5) are added as 2 parts each (for epoch = 10 and 20) in .rar format due to file size upload limit of github. It should be extracted before running the application. 
 
 -Done by Abhishek Saharia
